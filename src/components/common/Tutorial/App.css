@@ -1,0 +1,7 @@
+.my-unique-slider .slick-next:before, .my-unique-slider .slick-prev:before {
+  color: black !important;
+}
+
+.first-slider .slick-dots li button:before {
+  color: white !important;
+}
