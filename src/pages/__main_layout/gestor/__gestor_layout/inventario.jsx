@@ -32,7 +32,7 @@ export default function GestorInventario() {
           <div className="card rounded-2xl">
             <div className="flex flex-col sm:flex-row justify-between">
               <button
-                className="inline-flex items-center justify-center space-x-2 rounded-md bg text-blue-600  hover:text-blue-700 dark:hover:text-blue-500  hover:bg-gray-100  px-4 py-2 font-medium shadow-sm self-end"
+                className="inline-flex items-center justify-center space-x-2 rounded-md bg-azulCoopel text-white  hover:text-gray-100 dark:hover:text-blue-500  hover:bg-blue-700  px-4 py-2 font-medium shadow-sm self-end"
                 type="button"
                 onClick={handleShow}
               >

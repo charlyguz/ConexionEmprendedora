@@ -134,34 +134,27 @@ export default function index() {
           {/* seccion que es conexion emprendedora */}
           <div className="max-w-screen mx-auto my-auto pt-8 text-black ">
             <div className="w-7/8 h-full mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4 ">
-              <img
-                src="/assets/Analyzing_financial_chart_NOfondo.png"
-                alt="imagen analizando graficas sin fondo"
-              />
+              <div className="flex justify-center items-center">
+                <img
+                  src="/assets/que-es-landing.png"
+                  alt="imagen analizando graficas sin fondo"
+                />
+              </div>
               <div className="flex items-center">
                 <div>
                   <h2 className="mb-15 text-3xl font-extrabold tracking-tight text-black text-center">
                     ¿Qué es?
                   </h2>
                   <div className="w-full h-full bg-black mb-3"></div>
-                  <p className="p-3 mt-4 mb-4 text-base font-normal text-md lg:text-lg  text-blacke">
-                    Conexión Emprendedora es una aplicación diseñada para
-                    transformar como las{' '}
-                    <span className="text-azulCoopel">
-                      Pymes gestionan y desarrollan sus negocios
-                    </span>{' '}
-                    . Combina acceso a información clave sobre regulaciones y
-                    crecimiento, un marketplace intuitivo, y herramientas
-                    avanzadas de gestión para producción, distribución, y
-                    finanzas. Facilita la eficiencia operativa,{' '}
-                    <span className="text-azulCoopel">
-                      mejora la toma de decisiones financieras
-                    </span>{' '}
-                    , y optimiza la gestión de inventarios y relaciones con
-                    proveedores. Es una solución{' '}
-                    <span className="text-azulCoopel">todo en uno</span> para la
-                    formalización, eficiencia, y expansión de pequeños negocios,
-                    promoviendo su éxito sostenible.
+                  <p className="p-3 mt-4 mb-4 text-base font-normal text-md lg:text-xl  text-blacke">
+                    Esta aplicación facilita el crecimiento, regularización y
+                    aprendizaje en el manejo de negocios para los propietarios
+                    de microempresas en México. Nos enfocamos en mejorar la
+                    operatividad empresarial al ofrecer un punto de venta rápido
+                    y eficiente. Esta herramienta ayuda significativamente a
+                    reducir errores humanos y optimiza el proceso de cobro de
+                    productos, lo que se traduce en una experiencia más fluida
+                    tanto para los propietarios como para los clientes
                   </p>
                 </div>
               </div>
@@ -181,19 +174,19 @@ export default function index() {
                 <span className="absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -start-4 ring-8 ring-azulCoopel/[0.7]">
                   <CalculatorIcon className="w-4 h-4 text-blue-800" />
                 </span>
-                <h3 className="m-l-4 flex items-center mb-1 text-lg font-semibold text-black">
-                  Gestor empresarial
+                <h3 className="m-l-4 flex items-center mb-1 text-lg font-bold text-black lg:text-xl ">
+                  Contabilidad
                   <span className="flex gap-1 bg-purple-600 text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
                     IA <SparklesIcon className="w-3 h-3 mt-1" />
                   </span>
                 </h3>
-                <p className="mt-4 mb-4 text-base font-normal text-black">
-                  En esta seccion se revoluciona la eficiencia empresarial,
-                  simplificando la organización, planificación y comunicación.
-                  Mejora la toma de decisiones financieras con control total
-                  sobre ingresos y balances. Además, optimiza el manejo de
-                  inventario y relaciones con proveedores, todo desde una sola
-                  aplicación.
+                <p className="mt-4 mb-4 text-base font-normal text-black lg:text-xl">
+                  Presentamos dos versiones: una simplificada para una rápida
+                  comprensión de la salud financiera de su negocio en diferentes
+                  periodos de tiempo, y otra completa para análisis más
+                  detallados. Y cuando estés listo para crecer, nuestra versión
+                  completa, junto con los cursos de Coppel Emprende y su amigo
+                  inteligente, la guiará hacia el éxito.
                 </p>
                 <Link
                   to="/gestor"
@@ -208,22 +201,22 @@ export default function index() {
                 <span className="absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -start-4 ring-8 ring-azulCoopel/[0.7]">
                   <BuildingStorefrontIcon className="w-4 h-4 text-blue-800" />
                 </span>
-                <h3 className="m-l-4 flex items-center mb-1 text-lg font-semibold text-black">
-                  Marketplace
-                  <span className="flex gap-1 bg-purple-600 text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3">
-                    IA <SparklesIcon className="w-3 h-3 mt-1" />
-                  </span>
+                <h3 className="m-l-4 flex items-center mb-1 text-lg font-bold text-black lg:text-xl">
+                  Punto de venta
                 </h3>
-                <p className="mt-4 mb-4 text-base font-normal text-black">
-                  En esta seccion los empresarios tendrán la capacidad de
-                  publicar fácilmente sus productos y servicios en el
-                  marketplace, Link través de un formulario que recogerá
-                  información esencial como descripción, precio, fotos, y
-                  categoría. Las ventas que se hagan por este medio se mostraran
-                  en el registro de ventas del gestor empresarial.
+                <p className="mt-4 mb-4 text-base font-normal text-black lg:text-xl">
+                  El punto de venta es la piedra angular de nuestra aplicacion,
+                  ya que representa la herramienta principal para los usuarios.
+                  Con un enfoque en la esencia de la gestion de efectivo y la
+                  visualizacion como registro de los productos vendidos al
+                  momento, nuestro punto de venta ofrece un experiencia amigable
+                  y eficiente. Para priorizar el facil uso y el entendimiento
+                  intuitivo del punto de venta, hemos desarrollado una interfaz
+                  simplificada y limpia, con botones claramente etiquetados para
+                  una experiencia sin complicaciones ayudando a generar una .
                 </p>
                 <Link
-                  to="/marketplace"
+                  to="/gestor/punto-de-venta"
                   className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-100 bg-blue-700  rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-black dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
                   Visitar
@@ -235,18 +228,44 @@ export default function index() {
                 <span className="absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -start-4 ring-8 ring-azulCoopel/[0.7]">
                   <UsersIcon className="w-4 h-4 text-blue-800" />
                 </span>
-                <h3 className="m-l-4 flex items-center mb-1 text-lg font-semibold text-black">
-                  Comunidad
+                <h3 className="m-l-4 flex items-center mb-1 text-lg font-bold text-black lg:text-xl">
+                  Inventario
                 </h3>
-                <p className="mt-4 mb-4 text-base font-normal text-black">
-                  Esta seccion es un foro de discusión de diversos temas
-                  enfocado en negocios, emprendimiento y temas afines, donde se
-                  se comparten experiencias, resuelven dudas y se ofrece apoyo
-                  para aquellos que lo necesitan o que simplemente quieran
-                  compartir sus experiencias con los demás empresarios.
-                </p>
+                <div className="lg:text-xl">
+                  <p className="mt-4 mb-4 text-base font-normal text-black">
+                    Permite una administración sencilla y visual del inventario.
+                    Esta sección está diseñada para simplificar la actualización
+                    y gestión de productos, garantizando actualizaciones
+                    automáticas de cada producto dentro de tu negocio.
+                  </p>
+                </div>
                 <Link
-                  to="/comunidad"
+                  to="/gestor/inventario"
+                  className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-100 bg-blue-700  rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-black dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+                >
+                  Visitar
+                </Link>
+              </li>
+
+              {/* Ventas */}
+              <li className="mb-10 ms-6">
+                <span className="absolute flex items-center justify-center w-8 h-8 bg-white rounded-full -start-4 ring-8 ring-azulCoopel/[0.7]">
+                  <UsersIcon className="w-4 h-4 text-blue-800" />
+                </span>
+                <h3 className="m-l-4 flex items-center mb-1 text-lg font-bold text-black lg:text-xl">
+                  Ventas
+                </h3>
+                <div className="lg:text-xl">
+                  <p className="mt-4 mb-4 text-base font-normal text-black">
+                    Esta funcionalidad proporciona una vista integral y
+                    detallada de todas las transacciones realizadas a través de
+                    nuestro punto de venta integrado, facilitando a los usuarios
+                    el monitoreo y análisis de la salud financiera de su empresa
+                    de manera eficiente.
+                  </p>
+                </div>
+                <Link
+                  to="//gestor/ventas"
                   className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-100 bg-blue-700  rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-black dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
                   Visitar

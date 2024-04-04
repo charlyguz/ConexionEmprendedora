@@ -78,7 +78,7 @@ export default function PuntoDeVenta() {
                 Escanear
               </button>
               <button
-                className="bg-success rounded-lg text-white  px-2 py-1  sm:px-4 sm:py-2 font-semibold flex items-center gap-x-2"
+                className="bg-success rounded-lg text-white  px-2 py-1  sm:px-4 sm:py-2 font-semibold flex items-center gap-x-2 cursor-pointer"
                 disabled={toSaleProducts.length === 0}
               >
                 <div className="i-heroicons:check-20-solid sm:hw-6 hw-4" />
@@ -171,7 +171,7 @@ export default function PuntoDeVenta() {
 
       <div className="flex items-center justify-center">
         <button
-          className="mt-5 uppercase text-sm font-semibold inline-flex items-center rounded-lg text-white  bg-azulCoopel dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2"
+          className="max-md:mt-6 mt-5 uppercase text-sm font-semibold inline-flex items-center rounded-lg text-white  bg-azulCoopel dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-3 "
           onClick={handleClick}
         >
           {isActivated ? 'Terminar jornada' : 'Iniciar Jornada'}

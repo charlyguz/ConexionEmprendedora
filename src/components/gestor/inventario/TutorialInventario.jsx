@@ -20,11 +20,14 @@ export default function TutorialInventario() {
             </p>
           </div>
 
-          <img
-            className="justify-center items-center h-2xl w-2xl mx-auto"
-            src="https://static.enko.org/platform/lessons/320/parts/1847/P2__Compu.jpg"
-            alt="Inventario Coopel Emprende"
-          />
+          <div className="w-full lg:px-20">
+            <img
+              className="justify-center items-center h-2xl w-2xl mx-auto"
+              src="https://static.enko.org/platform/lessons/320/parts/1847/P2__Compu.jpg"
+              alt="Inventario Coopel Emprende"
+              style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+            />
+          </div>
           <div>
             <p className=" m-y-5">
               Para empezar a hacer un inventario desde cero, lo primero que
@@ -61,8 +64,21 @@ export default function TutorialInventario() {
             {' '}
             Un Ejemplo
           </h1>
-
-          <table className="min-w-full divide-y divide-gray-300">
+          <div className="w-full max-sm:hidden">
+            <img
+              src="/assets/inv_ejemplo.png"
+              alt=""
+              style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+            />
+          </div>
+          <div className="w-full sm:hidden">
+            <img
+              src="/assets/inv_ejemplomovil.png"
+              alt=""
+              style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+            />
+          </div>
+          {/* <table className="min-w-full divide-y divide-gray-300">
             <thead className="bg-gray-50">
               <tr>
                 <th
@@ -149,7 +165,7 @@ export default function TutorialInventario() {
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table> */}
         </div>
       </div>
     </div>

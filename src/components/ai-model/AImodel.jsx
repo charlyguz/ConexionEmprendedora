@@ -9,7 +9,7 @@ import {
 } from '@chatscope/chat-ui-kit-react'
 import { useState } from 'react'
 
-const API_KEY = key
+const API_KEY = ''
 
 export default function AImodel() {
   const [typing, setTyping] = useState(false)
